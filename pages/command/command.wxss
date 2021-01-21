@@ -1,0 +1,74 @@
+/* pages/command/command.wxss */
+.bg {
+  background: #f6f6f6;
+  height: 100vh;
+}
+
+.out {
+  padding-top: 25rpx;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-bottom: 20rpx;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  overflow: hidden;
+}
+
+.title {
+  line-height: 56rpx;
+  height: 70rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid #efefef;
+}
+
+.title image {
+  width: 70rpx;
+  height: 70rpx;
+  float: left;
+  margin-right: 15rpx;
+}
+
+.title text {
+  font-weight: normal;
+  font-size: 30rpx;
+}
+
+.data {
+  line-height: 53rpx;
+  height: 70rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+}
+
+.data text {
+  font-size: 28rpx;
+  color: #222;
+  display: block;
+  float: left;
+}
+
+.data image {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+
+.data input {
+  float: left;
+  width: 40%;
+  font-size: 30rpx;
+
+}
+
+.data button {
+  border: none;
+  background: #4988d5;
+  color: #fff;
+  float: left;
+  padding: 0 60rpx;
+}

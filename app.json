@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/recognition/recognition",
+    "pages/device/device",
+    "pages/command/command",
+    "pages/showimage/showimage"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/recognition/recognition",
+        "text": "生长期识别",
+        "iconPath":"images/map.png",
+        "selectedIconPath":"images/map_s.png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "text": "设备监控",
+        "iconPath":"images/device.png",
+        "selectedIconPath":"images/device_s.png"
+      },
+      {
+        "pagePath": "pages/command/command",
+        "text": "命令下发",
+        "iconPath":"images/device.png",
+        "selectedIconPath":"images/device_s.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

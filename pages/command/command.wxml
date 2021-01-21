@@ -1,0 +1,24 @@
+<!--pages/command/command.wxml-->
+<view class="bg">
+<view class="out">
+  <view class="row" wx:for="{{deviceInfo}}" wx:key="id">
+    <view class="text1">
+      <view class="title">
+        <image src="/images/no.png"></image><text>设备编号：</text> {{deviceInfo[index].device_name}}
+      </view>
+      <view class="data">
+        <image src="/images/lamp.png"></image>
+        <text>开启灯光：</text>
+        <input class="input" id="{{index}}" placeholder="请输入秒数" bindinput="lightSecInput" />
+        <button class="buttonLight" id="{{index}}" bindtap="LightbuttonClick" size='mini'>确定</button>
+      </view>
+      <view class="data">
+        <image src="/images/fan.png"></image>
+        <text>开启风扇：</text>
+        <input class="input" id="{{index}}" placeholder="请输入秒数" bindinput="fanSecInput" />
+        <button class="buttonFan" id="{{index}}" bindtap="FanbuttonClick" size='mini'>确定</button>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

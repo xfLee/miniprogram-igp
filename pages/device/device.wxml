@@ -1,0 +1,29 @@
+<!--pages/device/device.wxml-->
+<view class="bg">
+  <view class="out">
+    <view class="row" wx:for="{{dataList}}" wx:key="id">
+      <view class="text1">
+        <view class="title">
+          <image src="/images/no.png"></image>
+          <view><text>设备编号：</text>{{deviceInfo[index].device_name}}</view>
+        </view>
+        <view class="data">
+          <image src="/images/time.png"></image>
+          <text>上报时间：</text>{{item.time}}
+        </view>
+        <view class="data">
+          <image src="/images/humid.png"></image>
+          <text>湿度：</text>{{item.humid}}
+        </view>
+        <view class="data">
+          <image src="/images/light.png"></image>
+          <text>光照强度：</text>{{item.light}}
+        </view>
+        <view class="data">
+          <image src="/images/temp.png"></image>
+          <text>温度：</text>{{item.temp}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

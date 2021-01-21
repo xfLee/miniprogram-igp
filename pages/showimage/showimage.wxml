@@ -1,0 +1,6 @@
+<!--pages/showimage/showimage.wxml-->
+<view class="bg">
+  <view class="row" wx:for="{{filepathlist}}" wx:key="id" bindtap="previewImage" data-url="{{item}}" >
+    <image class='img' src="{{item}}" mode="widthFix"></image>
+  </view>
+</view>

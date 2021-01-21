@@ -1,0 +1,9 @@
+/* pages/recognition/recognition.wxss */
+.out{
+  pandding: 30rpx;
+}
+
+.row{
+  margin-bottom: 20rpx;
+  border: 1.5px solid rgb(0, 0, 0);
+}

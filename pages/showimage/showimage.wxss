@@ -1,0 +1,17 @@
+/* pages/showimage/showimage.wxss */
+.bg {
+  padding: 25rpx;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.row {
+  flex-basis: 49%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10rpx;
+}

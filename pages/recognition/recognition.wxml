@@ -1,0 +1,7 @@
+<!--pages/recognition/recognition.wxml-->
+<view>点击查看该设备上传的图片：</view>
+<view class="out">
+	<view class="row" wx:for="{{deviceInfo}}" wx:key="id">
+		<navigator class="link" url="/pages/showimage/showimage?device={{item.device_name}}"> 设备编号：{{item.device_name}}</navigator>
+	</view>
+</view>
