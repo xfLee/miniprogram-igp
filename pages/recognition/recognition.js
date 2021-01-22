@@ -6,10 +6,10 @@ const auth_data = {
     "password": {
       "user": {
         "domain": {
-          "name": "linzhihao037"
+          "name": "hw76710221"
         },
-        "name": "linzhihao037",
-        "password": "lin123"
+        "name": "hw76710221",
+        "password": "huaweicloud9"
       }
     }
   },
@@ -47,14 +47,14 @@ function getIAMToken(that) {
 
 function getDeviceList(that) {
   wx.request({
-    url: 'https://iotda.cn-north-4.myhuaweicloud.com/v5/iot/08efa18de38026502f13c0040bea3098/devices',
+    url: 'https://iotda.cn-north-4.myhuaweicloud.com/v5/iot/wx0cbb84791fc5999b/devices',
     method: 'GET',
     header: {
       "X-Auth-Token": that.data.token,
       "Content-Type": "application/json"
     },
     data: {
-      "product_id": "5f7d755424e3a102c33d1256"
+      "product_id": "5ffc57a1aaafca02dbc2b0f2"
     },
     success(res) {
       console.log(res.data.devices)
